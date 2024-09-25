@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
+import Link from 'next/link';
+
 const cafefrancoise = localFont({ src: '../public/fonts/Cafe Francoise_D.otf' })
 
 
@@ -81,10 +83,10 @@ export default function Home() {
                 <br />
                 
               </p>
-              <a href="/story" >
+              <Link href="/story" >
                 <button className="py-4 px-6 mt-20 bg-[#F6E8DD] rounded-md text-[#F15C61] transition hover:rotate-[-3deg] hover:translate-y-[-2px] hover:shadow-lg"><p>Learn More</p>
                 </button>
-              </a>
+              </Link>
                 <Image alt={"YoungDanno"} width="5000" height="5000"
                       src={'/images/YoungDanno.png'} className="w-[12rem] absolute bottom-0 right-20 scale-x-[-1]"
                       />
@@ -101,9 +103,9 @@ export default function Home() {
         <h1>OUR PLAN</h1>
         <p>Once we release our art collection, we will continue developing and designing new experiences for our members. We’ll begin with <b>custom merch</b> with your character, special  <b>community events</b>, airdrops, <b>digital accessories</b>, and move to one of our big checkpoint, a unique <b className="">fitness/recipe app</b> for our members. Our overall goal, improve to lives of others through a bit of healthy practices.
         </p>
-        <a href='/roadmap'>
+        <Link href='/roadmap'>
           <button className="py-4 px-6 mt-20 bg-[#F6E8DD] rounded-md text-[#F15C61] transition hover:rotate-[-3deg] hover:translate-y-[-2px] hover:shadow-lg"><p>View Full Roadmap</p></button>
-        </a>
+        </Link>
       </div>
       
       

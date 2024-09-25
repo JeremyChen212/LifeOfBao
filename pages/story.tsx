@@ -34,12 +34,12 @@ export default function Story() {
                 {/* <h2>Health & Wellbeing</h2>       */}
                 <p className="indent-8 mb-6 text-[1.15rem]">Our journey follows the lives of three life-long friends: Stu the chef, Danno the skateboarder, and Rami the intellect. Meeting each other in elementary, their bond continued strong up until highschool, when they unfortunately split schools. 
                 </p>
-                <p className="indent-8 mb-6 text-[1.15rem]">However during one summer break, they planned to meet each other after so long. When they met, they stumbled upon a nice korean steakhouse restaurant. It was a dark, empty family-owned restaurant with barbeque stoves on each table. Relunctant at first, they sat down for a meal. This turned out to be the best meal they've ever had, igniting their bond and love for food started. 
+                <p className="indent-8 mb-6 text-[1.15rem]">However during one summer break, they planned to meet each other after so long. When they met, they stumbled upon a korean steakhouse restaurant. It was a dark, empty family-owned restaurant with barbeque stoves on each table. Relunctant at first, they sat down for a meal. This turned out to be the best meal they&apos;ve ever had, igniting their bond and love for food started. 
                 </p>
                 <p className="indent-8 mb-6 text-[1.15rem]">
-                Ever since then, they have continued to explore different food cuisines, even meeting new friends along the way. They've gone out and tried unique desserts like Taiyaki, Halo Halo and Pisang Goreng, and savory meals like Mi Go Rang and Thai Yellow Curry. Among them is one thing they haven't got enough of, Boba. Whenever they feel like doing something, getting boba came naturally and the plan. 
+                Ever since then, they have continued to explore different food cuisines, even meeting new friends along the way. Theyniceve gone out and tried unique desserts like Taiyaki, Halo Halo and Pisang Goreng, and savory meals like Mi Go Rang and Thai Yellow Curry. Among them is one thing they haven&apos;t got enough of, Boba. Whenever they feel like doing something, getting boba came naturally and the plan. 
                 </p>
-                <p className="indent-8 mb-6 text-[1.15rem]">Fast forward to today, although they have gone on different career and life paths, they have continued to grow their food love. They started building a large food community called, "LOB".
+                <p className="indent-8 mb-6 text-[1.15rem]">Fast forward to today, although they have gone on different career and life paths, they have continued to grow their food love. They started building a large food community called, &#34;LOB&#34;.
                 </p>
                 
 
