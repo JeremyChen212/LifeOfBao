@@ -1,8 +1,13 @@
 import Image from 'next/image'
 import Router, { useRouter } from 'next/router'
-import { useEffect } from 'react'
+import { ReactNode, useEffect } from 'react';
 import Link from 'next/link';
-export default function Layout({ children }) {
+// Define a type for your props
+interface LayoutProps {
+  children: ReactNode;
+}
+
+export default function Layout({ children }: LayoutProps) {
     const router = useRouter();
 
     useEffect(()=>{
