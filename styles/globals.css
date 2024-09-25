@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'CafeFrancoise';
+  src:
+      url('../public/fonts/Cafe Francoise_D.otf') 
+      format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'JosefinSans';
+  src:
+      url('../public/fonts/JosefinSans-Regular.ttf') 
+      format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'HIROMISAKE';
+  src:
+      url('../public/fonts/HIROMISAKE.ttf') 
+      format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'IndieFlower';
+  src:
+      url('../public/fonts/IndieFlower-Regular.ttf') 
+      format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'JosefinSlab';
+  src:
+      url('../public/fonts/JosefinSlab-Regular.ttf') 
+      format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'JosefinSansBold';
+  src:
+      url('../public/fonts/JosefinSans-Bold.ttf') 
+      format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+  font-family: 'CafeFrancoise', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-family: 'IndieFlower', sans-serif;
+  font-size: 2rem;
+}
+p {
+  font-family: 'JosefinSans', sans-serif;
+}
+p b {
+  /* color: #232323; */
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  /* font-family: 'JosefinSansBold',  sans-serif; */
+}
+.roadmap p {
+  font-family: 'JosefinSlab', sans-serif;
+}
+span {
+  font-family: 'HIROMISAKE', sans-serif;
+  color: #232323;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
